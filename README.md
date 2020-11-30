@@ -10,7 +10,7 @@ objective:-
         -- code files
         -- Packer code (for example in case of jenkins Jenkinsfile)
 
-2.  - CI/CD I case of Jenkins
+2.  - CI/CD In case of Jenkins
     - Write a Jenkinsfile that is stored in repo of each microservice
     - configure your git repo to use Webhook so that it can track each push or merging of pull request automatically and pushes to the defined branches
     - Jenkins file should run a Dockerfile that will also be supplied by git repo 
